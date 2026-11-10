@@ -1,0 +1,1 @@
+terreno.kml es una copia del perímetro de referencia. Se carga al abrir la aplicación por primera vez en un navegador sin proyecto guardado. Para sustituir el terreno en un proyecto existente, usa Importar > Terreno KML.

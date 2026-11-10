@@ -1,0 +1,38 @@
+{
+  "name": "vueltabajero-event-planner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10",
+    "@react-three/fiber": "^9",
+    "@xmldom/xmldom": "^0.9",
+    "dexie": "^4",
+    "jspdf": "^4",
+    "polyclip-ts": "^0.16",
+    "proj4": "^2.19",
+    "react": "^19",
+    "react-dom": "^19",
+    "three": "^0.180.0",
+    "zustand": "^5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.180.0",
+    "eslint": "^9",
+    "fake-indexeddb": "^6",
+    "typescript": "^5.9",
+    "typescript-eslint": "^8",
+    "vite": "^7",
+    "vitest": "^3"
+  }
+}

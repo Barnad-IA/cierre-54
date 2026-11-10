@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.local
+
+
+# Copias de trabajo y archivos locales
+*.blend[0-9]*
+.env
+.env.*
+!.env.example
+__pycache__/
+
+# Originales locales ya incorporados en public/data
+/Archivo KML sin título.kml
+/Vista aérea de avenida urbana arbolada.png
+/Vista aérea urbana sin árboles (1).png
